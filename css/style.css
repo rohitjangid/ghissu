@@ -1,0 +1,123 @@
+/*about style start*/
+body{
+	padding:0px;
+	margin:0px;
+	background-image: url('../image/polaroid.png');
+}
+#container{
+	position:absolute;
+	float:none;
+	left:50%;
+	width: 960px;
+	margin-left:-480px;
+	height: 520px;
+	border:solid 1px #333333;
+	padding:10px 0 0 5px;
+	list-style:none;
+	display:inline;
+	clear:both;
+	box-shadow: 0px 0px 5px 5px rgb(60,120,120);
+}
+ul#container li{
+	position:relative;
+	float:left;
+	display:block;
+	margin:0 5px 5px 5px;
+	padding: 10px 0px 0px 10px;
+	height: 500px;
+	font-size:28px;
+	color:rgb(50,120,120);
+	overflow:hidden;
+}
+ul#container li table tr td{
+	padding:5px 0 0 5px;
+	font-size: 16px;
+	vertical-align:top;
+}
+ul#container li table tr > td{
+	text-align:right;
+}
+ul#container li table tr td~td{
+	text-align:left;
+}
+#img{
+	width:250px;
+	box-shadow: 2px 2px 5px 0px rgb(60,120,120);
+}
+#img  img{
+	box-shadow: 0px 0px 10px 2px rgb(60,120,120);
+}
+#about{
+	width:660px;
+}
+#about h3
+{
+	margin:5px 0;
+}
+/*about style end*/
+
+
+/* books style start*/
+#book{
+	position:absolute;
+	left:50%;
+	margin-left: -480px;
+	width:960px;
+	box-shadow: 0px 0px 5px 5px rgb(60,120,120);
+	padding:5px;
+	list-style:none;
+	float:left;
+	display:block;
+}
+#book img{
+	width:220px;
+	height:290px;
+	padding:5px;
+	box-shadow: 2px 2px 5px 0px rgb(60,120,120);
+	
+}
+ul#book li{
+	display:block;
+	float:left;
+	padding:0 5px;
+	margin-left:5px;
+}
+ul#book li table{
+	width:700px;
+}
+ul#book li table tr td{
+	vertical-align:top;
+	padding:5px;
+}
+ul#book li table tr>td{
+	text-align:right;
+}
+ul#book li table tr td~td{
+	text-align:left;
+}
+ul#book li table tr td h2{
+	text-align:left;
+	margin:0;
+	font-size:28px;
+}
+/*books style end*/
+
+/*form style start*/
+form{
+	display:block;
+	width:350px;
+	margin-top:10px;
+	margin-left:300px
+}
+ul li#form{
+	width:960px;
+	height:40px;
+	font-size:16px;
+}
+/*form style end*/
+/*other*/
+ul li#home {
+	width:960px;
+	height:40px;
+	text-align:center;
+}

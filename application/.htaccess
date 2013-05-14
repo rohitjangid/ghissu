@@ -1,0 +1,5 @@
+DENY FOR ALL
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteRule ^ghissu/book/([^/]*)$ /ghissu/book/view?isbn=$1 [L]
